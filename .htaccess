@@ -1,0 +1,17 @@
+Options -Indexes
+
+#Deny access to directory listing and folder paths
+RewriteEngine On
+RewriteRule ^login$ login.php [L]
+RewriteRule ^order$ order.php [L]
+RewriteRule ^api/get-category$ api/get_category.php [L]
+RewriteRule ^api/get-all-items$ api/get_all_items.php [L]
+RewriteRule ^api/get-item$ api/get_item.php [L]
+RewriteRule ^api/get-items$ api/get_items.php [L]
+RewriteRule ^api/get-order-items$ api/get_order_items.php [L]
+RewriteRule ^api/get-orders$ api/get_orders.php [L]
+RewriteRule ^api/item-holder$ api/item_holder.php [L]
+RewriteRule ^api/check-shift$ api/check_shift.php [L]
+RewriteRule ^order$ order_list.php [L]
+RewriteRule ^order-invoice$ order_invoice.php [L]
+RewriteRule ^payment$ payment.php [L]
